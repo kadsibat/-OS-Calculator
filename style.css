@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    user-select: :none;
     
   }
   
@@ -16,11 +17,16 @@
   
   .calculator {
     background: black;
-    border-radius: 50px;
+    border-radius: 40px;
     color: white;
     height: 840px;
     width: 500px;
-    padding: 20px;
+    padding:5px 20px;
+  }
+  .top-contanier{
+    padding:0px 20px;
+    display:flex;
+    justify-content: space-between;
   }
   
   .display {
